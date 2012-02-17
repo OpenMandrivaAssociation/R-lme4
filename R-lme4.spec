@@ -20,6 +20,8 @@ BuildRequires:    R-graphics R-nlme R-stats4 R-stats
 %if %{without bootstrap}
 BuildRequires:    R-mlmRev R-MEMSS R-coda R-MASS R-sfsmisc R-MatrixModels 
 %endif
+BuildRequires:    blas-devel
+BuildRequires:    lapack-devel
 
 %description
 Fit linear and generalized linear mixed-effects models.
