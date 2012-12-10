@@ -4,7 +4,7 @@
 
 Name:             R-%{packname}
 Version:          0.999375_42
-Release:          2
+Release:          3
 Summary:          Linear mixed-effects models using S4 classes
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
@@ -55,3 +55,15 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/data
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
+
+
+%changelog
+* Wed Feb 22 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.999375_42-2
++ Revision: 778854
+- Rebuild with proper dependencies
+
+* Fri Feb 17 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.999375_42-1
++ Revision: 775906
+- Import R-lme4
+- Import R-lme4
+
