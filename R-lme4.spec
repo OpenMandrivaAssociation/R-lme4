@@ -55,4 +55,4 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/data
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
-%{rlibdir}/%{packnane}/*Rdata
+%{rlibdir}/%{packname}/*Rdata
