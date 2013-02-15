@@ -3,13 +3,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          0.999375_42
-Release:          3
+Version:          0.999999.0
+Release:          1
 Summary:          Linear mixed-effects models using S4 classes
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.999375-42.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/lme4_0.999999-0.tar.gz
 Requires:         R-methods R-Matrix R-lattice R-graphics R-nlme R-stats4
 Requires:         R-stats 
 %if %{without bootstrap}
@@ -55,15 +55,4 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/data
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
-
-
-%changelog
-* Wed Feb 22 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.999375_42-2
-+ Revision: 778854
-- Rebuild with proper dependencies
-
-* Fri Feb 17 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.999375_42-1
-+ Revision: 775906
-- Import R-lme4
-- Import R-lme4
-
+%{rlibdir}/%{packnane}/*Rdata
