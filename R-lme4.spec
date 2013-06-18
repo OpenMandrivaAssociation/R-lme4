@@ -4,7 +4,7 @@
 
 Name:             R-%{packname}
 Version:          0.999999.0
-Release:          1
+Release:          2
 Summary:          Linear mixed-effects models using S4 classes
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
