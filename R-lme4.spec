@@ -8,7 +8,7 @@ Release:          2
 Summary:          Linear mixed-effects models using S4 classes
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/lme4_0.999999-0.tar.gz
 Requires:         R-methods R-Matrix R-lattice R-graphics R-nlme R-stats4
 Requires:         R-stats 
